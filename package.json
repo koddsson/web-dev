@@ -6,6 +6,7 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
+    "lint": "eslint src/**/*",
     "start": "web-dev-server",
     "test": "web-test-runner"
   },
@@ -19,10 +20,15 @@
   "bugs": {
     "url": "https://github.com/koddsson/web-dev/issues"
   },
+  "prettier": "@github/prettier-config",
   "homepage": "https://github.com/koddsson/web-dev#readme",
   "devDependencies": {
+    "@github/prettier-config": "^0.0.4",
     "@web/dev-server": "^0.1.35",
     "@web/dev-server-esbuild": "^0.3.3",
-    "@web/test-runner": "^0.15.0"
+    "@web/test-runner": "^0.15.0",
+    "eslint": "^8.26.0",
+    "eslint-plugin-github": "^4.4.0",
+    "prettier": "^2.7.1"
   }
 }
