@@ -1,0 +1,28 @@
+{
+  "name": "web-dev",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server",
+    "test": "web-test-runner"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koddsson/web-dev.git"
+  },
+  "keywords": [],
+  "author": "Kristján Oddsson <hi@koddsson.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koddsson/web-dev/issues"
+  },
+  "homepage": "https://github.com/koddsson/web-dev#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.35",
+    "@web/dev-server-esbuild": "^0.3.3",
+    "@web/test-runner": "^0.15.0"
+  }
+}
