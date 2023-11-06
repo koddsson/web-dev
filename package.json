@@ -30,7 +30,7 @@
   "devDependencies": {
     "@github/prettier-config": "^0.0.6",
     "@koddsson/eslint-config": "^0.1.2",
-    "@open-wc/testing": "^3.2.0",
+    "@open-wc/testing": "^3.2.2",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@web/dev-server": "^0.3.6",
     "@web/dev-server-esbuild": "^0.4.4",
